@@ -1,0 +1,456 @@
+<!--Exercise2d--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Mega Home Gym Equipment</title>
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mega Home Gym Equipment</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#us">Why choose us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#excellence">Excellence</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#owners">Owners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#chat">Chat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#chat">Payments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Username" aria-label="Search">
+              <button type="button" class="btn btn-secondary">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--Showcase-->  
+      <section id="home" class="bg-secondary text-light text-center p-3">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <div>
+                        <p>
+                            <h1>Become a member today!</h1>
+                        </p>
+                        <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#signup"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click to sign up today">
+                            Create Account
+                        </button>
+                        <p></p>
+                            <p class="lead">
+                                Mega Home Gym Equipment is a top rated company in the home gym industry. We 
+                                try hard to give our customers the very best products, service, and experience. Become 
+                                a member today and recieve all the benifits of membership including and initial 10% off.
+                            </p>
+                    </div>
+                </div>
+                <img class="img-fluid w-50 p-3" src="img/Trainer.svg"/>
+            </div>
+        </div>
+      </section>
+
+      <!--Why Choose Us Section-->
+      <section id="us" class="p-3">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                        <img class="img-fluid p-3" src="img/PersonTraining.svg"/>
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Why Choose Us</h2>
+                        <p class="lead">
+                            <ul class="lead">
+                            <li>Excellent customer service.</li>
+                            <li>Quality products since 1998.</li>
+                            <li>90 day full-refund return policy.</li>
+                            </ul>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Excepturi sapiente laboriosam modi nemo. Magnam pariatur, 
+                            corrupti quam laudantium necessitatibus nihil dolor, 
+                            id accusantium placeat voluptates quidem esse autem? Cumque, autem?
+                        </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Products Accordion -->
+      <section id="products" class="p-3">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Our Products
+            </h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                X1 Home Gym
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>$1099.99</strong> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Hic possimus animi dicta in nobis molestiae modi sit aspernatur nesciunt deleniti maxime 
+                eligendi nisi minus doloremque ipsam enim odit, accusamus a deserunt. Velit necessitatibus 
+                excepturi maxime architecto magni veniam temporibus atque inventore pariatur officia, voluptatibus enim, 
+                libero asperiores id maiores nulla?</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                X2 Home Gym
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>$1599.99</strong> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Hic possimus animi dicta in nobis molestiae modi sit aspernatur nesciunt deleniti maxime 
+                eligendi nisi minus doloremque ipsam enim odit, accusamus a deserunt. Velit necessitatibus 
+                excepturi maxime architecto magni veniam temporibus atque inventore pariatur officia, voluptatibus enim, 
+                libero asperiores id maiores nulla?</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                X3 Home Gym
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>$2599.99</strong> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Hic possimus animi dicta in nobis molestiae modi sit aspernatur nesciunt deleniti maxime 
+                eligendi nisi minus doloremque ipsam enim odit, accusamus a deserunt. Velit necessitatibus 
+                excepturi maxime architecto magni veniam temporibus atque inventore pariatur officia, voluptatibus enim, 
+                libero asperiores id maiores nulla?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+    <!--Cards Section 1-->
+    <section id="excellence" class="p-5">
+        <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <i class="bi bi-trophy"></i>  <i></i><i class="bi bi-award"></i>
+                    <h5 class="card-title">Top Rated</h5>
+                    <p class="card-text">We are a top rated home gym equipment seller. 
+                        We have won several awards for product excellence.
+                        In addition, we are rated #1 in Fitness Magazine.</p>
+                    <a href="#" class="btn btn-outline-light">Read More</a>
+                    </div>
+                 </div>
+                </div>
+        <div class="col-md">
+            <div class="card bg-secondary text-light">
+                <div class="card-body">
+                    <i class="bi bi-person-circle"></i>
+                <h5 class="card-title">Customer Excellence</h5>
+                <p class="card-text">We strive to be the best in customer service and give out customers the best experience. 
+                    We have an excellent return policy.</p>
+                <a href="#" class="btn btn-outline-light">Read More</a>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+      </section>
+
+      <!--Owners Section 1-->
+      <section id="owners" class="p-5 bg-dark">
+        <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div id="card" class="card">
+                    <div class="card-body">
+                        <img src="https://randomuser.me/api/portraits/men/5.jpg" class="square mb-4" alt=""/>
+                        <h3 class="card-title mb-3">John Roberts</h3>
+                        <p class="card-text">johnroberts@yahoo.com - Mega Gym Equipment Inc. - Owner
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                    </div>
+                 </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div id="card" class="card">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/women/4.jpg" class="square mb-4" alt=""/>
+                            <h3 class="card-title mb-3">Sara Thomas</h3>
+                            <p class="card-text">sarathomas@gmail.com - Mega Gym Equipment Inc. - Owner
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                    </div>
+                </div>
+             </div>
+             <div class="col-md-6 col-lg-6 text-center text-white p-5">
+                <div>
+                    <p class="lead text-center text-white mb-5">About The Owners</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Excepturi sapiente laboriosam modi nemo. Magnam pariatur, 
+                        corrupti quam laudantium necessitatibus nihil dolor, 
+                        id accusantium placeat voluptates quidem esse autem? Cumque, autem?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Excepturi sapiente laboriosam modi nemo. Magnam pariatur, 
+                        corrupti quam laudantium necessitatibus nihil dolor, 
+                        id accusantium placeat voluptates quidem esse autem? Cumque, autem?
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+      </section>
+
+    <!--Cards Section 2-->
+    <section id="chat" class="p-5">
+        <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body">
+                        <i class="bi bi-chat"></i>
+                    <h5 class="card-title">Chat Live</h5>
+                    <p class="card-text">Questions? Need help fast? Chat with one of our 
+                        certified customer service representitives now!</p>
+                    <a href="#" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#chatnow"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click to chat now">Chat</a>
+                    </div>
+                 </div>
+                </div>
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body">
+                    <i class="bi bi-bank"></i>  <i></i><i class="bi bi-credit-card"></i>
+                <h5 class="card-title">Payments</h5>
+                <p class="card-text">Pay online with our fast payment processing. We accept bank accounts and credit cards.</p>
+                <a href="#" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#paynow"
+                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click to pay now">Pay</a>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+      </section>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <div class="col-md">
+                <div class="card bg-light text-dark text-center">
+                    <div class="card-body">
+                    <h6 id="car" class="card-title">Be strong!</h6>
+                    <p class="card-text" class="card-text">Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Excepturi sapiente laboriosam modi nemo. 
+                        Magnam pariatur.</p>
+                    </div>
+                 </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md">
+                <div class=" card bg-light text-dark text-center">
+                    <div class="card-body">
+                    <h7 id="car" class="card-title">Get motivated!</h7>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Excepturi sapiente laboriosam modi nemo. 
+                        Magnam pariatur.</p>
+                    </div>
+                 </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md">
+                <div class="card bg-light text-dark text-center">
+                    <div class="card-body">
+                    <h8 id="car" class="card-title">Get Mega Home Gym!</h8>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Excepturi sapiente laboriosam modi nemo. 
+                        Magnam pariatur.</p>
+                    </div>
+                 </div>
+                </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Footer -->
+      <footer id="contact" class="p-3 bg-secondary text-white text-left position-relative">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <ul class="lead" style="list-style-type:none;">
+                        <li id="contactUs"><span class="fw-bold">Contact Information</span></li>
+                        <li><span class="fw-bold">Location:</span> 308 Pioneer Rd Red Wing MN</li>
+                        <li><span class="fw-bold">Phone</span> 1(800) 888-8888</li>
+                    </ul>
+                    </div>
+                    <div class="col-md p-5">
+                        <ul class="lead" style="list-style-type:none;">
+                            <li><span class="fw-bold">Email:</span> megagymequipment@gmail.com</li>
+                            <li><span class="fw-bold">Website:</span> www.megagymequipment.com</li>
+                            <li id="contactUs"><span class="fw-bold">Copyright &copy; 2022 Mega Gym Equipment</span></li>
+                        </ul>
+                </div>
+            </div>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5 text-light">
+                <i class="bi bi-arrow-bar-up h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal 1 -->
+    <div id="signup" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div id="msignup" class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Sign up</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+            <form class="p-3">
+            <div class="mb-3">
+                <label for="name" class="col-form-label">
+                    Name:
+                </label>
+                <input type="text" class="form-control" id="name"/>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="col-form-label">
+                    Email:
+                </label>
+                <input type="email" class="form-control" id="email"/>
+            </div>
+            <div class="mb-3">
+                <label for="username" class="col-form-label">
+                    User Name:
+                </label>
+                <input type="username" class="form-control" id="username"/>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="col-form-label">
+                    Password:
+                </label>
+                <input type="password" class="form-control" id="password"/>
+            </div>
+        </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 2 -->
+    <div id="chatnow" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div id="msignup" class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Chat</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+            <form class="p-3">
+            <div class="mb-3">
+                <label for="name" class="col-form-label">
+                    Type question here:
+                </label>
+                <input type="text" class="form-control" id="chat"/>
+            </div>
+        </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 3 -->
+    <div id="paynow" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div id="msignup" class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Payments</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+            <form class="p-3">
+            <div class="mb-3">
+                <label for="name" class="col-form-label">
+                    Name:
+                </label>
+                <input type="text" class="form-control" id="name"/>
+            </div>
+            <div class="mb-3">
+                <label for="account" class="col-form-label">
+                    Card or account number:
+                </label>
+                <input type="text" class="form-control" id="account"/>
+            </div>
+            <div class="mb-3">
+                <label for="expiration" class="col-form-label">
+                    Expiration Date:
+                </label>
+                <input type="text" class="form-control" id="expiration"/>
+            </div>
+        </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
