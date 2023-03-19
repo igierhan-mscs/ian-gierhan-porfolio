@@ -1,0 +1,142 @@
+﻿.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.list_1 {
+    width: 25%;
+    text-align: center;
+}
+
+header, nav, .c1, .c2, .c3, .c4, .c5, footer {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    header {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .c1 {
+        width: 100%;
+    }
+
+    .c2 {
+        width: 50%;
+    }
+
+    .c3 {
+        width: 50%;
+    }
+
+    .c4 {
+        width: 100%;
+    }
+
+    .c5 {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 850px) {
+    header {
+        width: 40%;
+    }
+
+    nav {
+        width: 60%;
+    }
+
+    .c1 {
+        width: 100%;
+    }
+
+    .c2 {
+        width: 50%;
+    }
+
+    .c3 {
+        width: 50%;
+    }
+
+    .c4 {
+        width: 100%;
+    }
+
+    .c5 {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+.c2 label, .c4, .c5 {
+    padding: 10px;
+    font-family: Calibri;
+    font-size: larger;
+}
+
+.c2 p, .c3 p, .c4 p {
+    font-size: x-large;
+    font-style: oblique;
+    font-family: Calibri;
+}
+
+.c1, .c5, .c4{
+    text-align: center;
+    padding: 20px;
+}
+
+.c1 img, .c5 img {
+    border-radius: 10%;
+}
+
+.c3 {
+    text-align: center;
+}
+
+#Message {
+    height: 75px;
+    width: 250px;
+    vertical-align:top;
+}
+
+#Name {
+    margin-left: 21px;
+    width: 250px;
+}
+
+#Email {
+    margin-left: 25px;
+    width: 250px;
+}
+
+.textbox {
+    text-align: center;
+    margin: 20px;
+}
+
+#submit {
+    width: 100px;
+}
+
+#label {
+    margin-left: 25px;
+}
+
+
+
+
+
