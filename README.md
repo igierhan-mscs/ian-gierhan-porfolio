@@ -1,2 +1,2 @@
 # ian-gierhan-porfolio
-employment portfolio
+employment portfolio - open projects with Visual Studio Code
